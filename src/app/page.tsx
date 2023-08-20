@@ -76,6 +76,7 @@ export default function Home() {
                   onClick={() => edititem(item.id)}
                   className='text-right cursor-pointer mr-3 hover:text-blue-500 ' >Edit</h2>
               </div>
+          <div className='p-2'> Quantity= {item.id} </div>
             </div>)
           })
         }
